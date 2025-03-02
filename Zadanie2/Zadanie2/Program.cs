@@ -1,7 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-int i = 0;
 
-i += 1;
+double CalculateAverage(int[] numbers)
+{
+    int sum = 0;
 
-Console.WriteLine(i);
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        sum += numbers[i];
+    }
+
+    return sum / numbers.Length;
+}
