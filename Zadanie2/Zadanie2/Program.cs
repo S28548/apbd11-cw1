@@ -3,3 +3,5 @@ Console.WriteLine("Hello, World!");
 int i = 0;
 
 i += 1;
+
+Console.WriteLine(i);
