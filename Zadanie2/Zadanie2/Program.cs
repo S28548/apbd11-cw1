@@ -12,3 +12,15 @@ double CalculateAverage(int[] numbers)
 
     return sum / numbers.Length;
 }
+
+int GetMaxValue(int[] numbers)
+{
+    int maxValue = numbers[0];
+
+    foreach (int number in numbers)
+    {
+        if (number > maxValue) maxValue = number;
+    }
+
+    return maxValue;
+}
