@@ -5,9 +5,9 @@ double CalculateAverage(int[] numbers)
 {
     int sum = 0;
 
-    for (int i = 0; i < numbers.Length; i++)
+    for (int j = 0; j < numbers.Length; j++)
     {
-        sum += numbers[i];
+        sum += numbers[j];
     }
 
     return sum / numbers.Length;
